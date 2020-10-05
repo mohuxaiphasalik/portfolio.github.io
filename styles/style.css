@@ -26,6 +26,7 @@ li {
 }
 
 body {
+    overflow: hidden;
     display: grid;
     grid-template-rows: 1fr 1fr;
     color: white;
@@ -51,7 +52,6 @@ first two Section */
 
 #header {
     padding-top: 20px;
-    overflow-x: hidden;
     display: grid;
     min-height: 650px;
     width: 100%;
