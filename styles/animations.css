@@ -1,0 +1,92 @@
+/*All Animations Here */
+
+@keyframes full {
+    33% {
+        transform: rotate(-15deg);
+    }
+    66% {
+        transform: rotate(-30deg);
+    }
+    100% {
+        transform: rotate(-45deg);
+    }
+}
+
+@keyframes full_close {
+    from {
+        transform: rotate(-45deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes start {
+    33% {
+        transform: translate(3px, -2px) rotate(15deg);
+    }
+    66% {
+        transform: translate(7px, -4px) rotate(30deg);
+    }
+    100% {
+        transform: translate(9px, -7px) rotate(45deg);
+    }
+}
+
+@keyframes start_close {
+    from {
+        transform: translate(9px, -7px) rotate(45deg);
+    }
+    to {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+}
+
+@keyframes end {
+    33% {
+        transform: translate(-3px, 2px) rotate(15deg);
+    }
+    66% {
+        transform: translate(-7px, 4px) rotate(30deg);
+    }
+    100% {
+        transform: translate(-9px, 7px) rotate(45deg);
+    }
+}
+
+@keyframes end_close {
+    from {
+        transform: translate(-9px, 7px) rotate(45deg);
+    }
+    to {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+}
+/* 
+animation to move Menu */
+@keyframes menu_down{
+    from{
+        position: absolute;
+        top: -100vh;
+        opacity: 0;
+    }
+    to{
+        
+        position: absolute;
+        top: 0vh;
+        opacity: 1;
+    }
+}
+@keyframes menu_up{
+    from{
+        position: absolute;
+        top: 0vh;
+        opacity: 1;
+    }
+    to{
+        
+        position: absolute;
+        top:-100vh;
+        opacity: 0;
+    }
+}
